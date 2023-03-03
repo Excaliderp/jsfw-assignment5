@@ -1,4 +1,3 @@
-"use client"
 import { Inter } from 'next/font/google'
 import styles from './page.module.css'
 import Link from "next/link"
@@ -12,8 +11,7 @@ export default function Home() {
   return (
     <main className={inter.className}>
       <div>
-        <h1>Home page</h1>
-        <Link href="/articles">Link to articles</Link>
+        <h1>Cans</h1>
       </div>
     </main>
   )

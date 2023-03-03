@@ -1,4 +1,7 @@
+"use client"
 import './globals.css'
+import Link from "next/link"
+
 
 export const metadata = {
   title: 'Assignment 5',
@@ -8,7 +11,19 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <header>
+          <section className={navigation}>
+            <Link href="/">Home</Link>
+            <Link href="/largeflasks">Large flask</Link>
+            <Link href="/smallflasks">Small flask</Link>
+            <Link href="/cans">Can</Link>
+          </section>
+        </header>
+
+        <div>{children}</div>
+
+      </body>
     </html>
   )
 }

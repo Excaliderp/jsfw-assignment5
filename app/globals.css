@@ -1,7 +1,36 @@
 :root {
   --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+  --font-mono: var(--font-motserrat);
 
+}
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  height: 100vh;
+  padding: 16px;
+}
+
+header {
+  background-color: blueviolet;
+  display: grid;
+  padding: 16px;
+  width: 100%;
+}
+
+footer {
+  background-color: blueviolet;
+  padding: 16px;
+  width: 100%;
 }

@@ -1,6 +1,19 @@
 "use client"
+import styles from "./page.module.css"
 import './globals.css'
 import Link from "next/link"
+import { Montserrat,  Montserrat_Alternates  } from 'next/font/google'
+
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  display: "swap"
+})
+
+const montserratAlt = Montserrat_Alternates({
+  subsets: ["latin"],
+  weight: "700",
+  display: "swap"
+})
 
 
 export const metadata = {
@@ -10,10 +23,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${montserrat.className} ${montserratAlt.className}`}>
       <body>
+
         <header>
-          <section className={navigation}>
+          <p className={styles.logotype}>What the Coke?!</p>
+          <section className={styles.navigation}>
             <Link href="/">Home</Link>
             <Link href="/largeflasks">Large flask</Link>
             <Link href="/smallflasks">Small flask</Link>
@@ -21,7 +36,11 @@ export default function RootLayout({ children }) {
           </section>
         </header>
 
-        <div>{children}</div>
+        <main>{children}</main>
+
+        <footer>
+          <h2>Timothy Karlsson</h2>
+        </footer>
 
       </body>
     </html>

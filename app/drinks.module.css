@@ -1,0 +1,8 @@
+.drinkCard {
+  background-color: blanchedalmond;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+  padding: 16px;
+}

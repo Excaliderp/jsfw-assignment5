@@ -18,7 +18,8 @@ body {
 }
 
 main {
-  height: 100vh;
+  max-height: fit-content;
+  min-height: 100vh;
   padding: 16px;
 }
 

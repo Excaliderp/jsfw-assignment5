@@ -1,30 +1,32 @@
 "use client"
-import styles from "./page.module.css"
-import './globals.css'
+import styles from "./menu.module.css"
+import "./globals.css"
 import Link from "next/link"
-import { Montserrat,  Montserrat_Alternates  } from 'next/font/google'
+import { Montserrat, Montserrat_Alternates } from "next/font/google"
 
 const montserrat = Montserrat({
   subsets: ["latin"],
-  display: "swap"
+  display: "swap",
 })
 
 const montserratAlt = Montserrat_Alternates({
   subsets: ["latin"],
   weight: "700",
-  display: "swap"
+  display: "swap",
 })
 
 export const metadata = {
-  title: 'Assignment 5',
-  description: 'JS-Framework course',
+  title: "Assignment 5",
+  description: "JS-Framework course",
 }
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${montserrat.className} ${montserratAlt.className}`}>
+    <html
+      lang="en"
+      className={`${montserrat.className} ${montserratAlt.className}`}
+    >
       <body>
-
         <header className={montserratAlt.className}>
           <p className={styles.logotype}>What the Coke?!</p>
           <section className={styles.navigation}>
@@ -40,7 +42,6 @@ export default function RootLayout({ children }) {
         <footer>
           <h2>Timothy Karlsson</h2>
         </footer>
-
       </body>
     </html>
   )

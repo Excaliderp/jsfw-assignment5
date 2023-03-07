@@ -1,16 +1,12 @@
-// import styles from './largeflasks.module.css'
-// import Link from "next/link"
-import bigZeroCola from "../api/bigflasks/route.js"
+import bigZeroCola from "../api/largeflasks/route.js"
 
 let drinks = bigZeroCola()
 
 export default function Home() {
   return (
-      <div>
-        <h1>
-          Large flasks
-        </h1>
-        {drinks}
-      </div>
+    <>
+      <h1>Large flasks</h1>
+      {drinks}
+    </>
   )
 }

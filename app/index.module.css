@@ -1,0 +1,10 @@
+.content {
+  display: flex;
+  font-size: 38px;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.content p {
+  max-width: 40%;
+}

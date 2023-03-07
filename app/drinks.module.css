@@ -1,8 +1,39 @@
+.content {
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
 .drinkCard {
-  background-color: blanchedalmond;
+  background-color: #e5c685;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   margin: 16px;
   padding: 16px;
+  position: relative;
+  width: 40%;
+
+  box-shadow: 0px 0px 8px 7px rgba(30, 30, 30, 0.69);
+  -webkit-box-shadow: 0px 0px 8px 7px rgba(30, 30, 30, 0.69);
+  -moz-box-shadow: 0px 0px 8px 7px rgba(30, 30, 30, 0.69);
+}
+
+.drinkCard img {
+  height: auto;
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  width: 15%;
+}
+
+.description {
+  font-size: 0.8rem;
+}
+
+.span {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  text-decoration: underline;
 }

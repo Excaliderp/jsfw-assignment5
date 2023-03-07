@@ -1,16 +1,15 @@
-
 .navigation {
   display: flex;
   flex-direction: row;
   font-size: 18px;
   width: 50%;
   justify-content: space-around;
-  justify-self: right;
+  justify-self: center;
 }
 
 .navigation a,
 .navigation a:visited {
-  color: black;
+  color: #fff;
   margin-right: 8px;
   position: relative;
   text-decoration: none;

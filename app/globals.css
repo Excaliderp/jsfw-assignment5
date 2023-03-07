@@ -1,7 +1,6 @@
 :root {
   --border-radius: 12px;
   --font-mono: var(--font-motserrat);
-
 }
 * {
   box-sizing: border-box;
@@ -18,20 +17,28 @@ body {
 }
 
 main {
+  color: #1e1e1e;
   max-height: fit-content;
   min-height: 100vh;
   padding: 16px;
 }
 
 header {
-  background-color: blueviolet;
+  background-color: #f40009;
+  color: #fff;
   display: grid;
   padding: 16px;
   width: 100%;
 }
 
 footer {
-  background-color: blueviolet;
+  background-color: #1e1e1e;
+  color: #fff;
   padding: 16px;
+  text-align: center;
   width: 100%;
+}
+
+h1 {
+  text-align: center;
 }

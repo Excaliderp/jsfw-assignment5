@@ -47,3 +47,22 @@ h3 {
   font-size: 20px;
   text-decoration: underline;
 }
+
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #1e1e1e #ffffff;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  border: 0px solid #1e1e1e;
+}

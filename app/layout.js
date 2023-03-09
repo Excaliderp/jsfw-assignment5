@@ -1,4 +1,3 @@
-"use client"
 import styles from "./menu.module.css"
 import "./globals.css"
 import Link from "next/link"

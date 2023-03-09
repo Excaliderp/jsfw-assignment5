@@ -48,6 +48,17 @@ const canZeroCola = () => {
       description:
         "The markets runner up. I'll be painfully honest with you all, Max has a slightly better taste than Zero. It's something with the original taste that just works better with sweeteners.",
     },
+    {
+      id: 5,
+      name: "Fritz cola",
+      buy: "Everywhere",
+      cost: "ca 23:-",
+      taste: "8/10",
+      price: "2/10",
+      img: can,
+      description:
+        "The markets runner up. I'll be painfully honest with you all, Max has a slightly better taste than Zero. It's something with the original taste that just works better with sweeteners.",
+    },
   ]
 
   return (

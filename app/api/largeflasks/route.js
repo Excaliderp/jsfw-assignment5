@@ -6,7 +6,6 @@ import bottle from "../../../public/bigbottle.png"
 const bigZeroCola = () => {
   const sodaBrands = [
     {
-      id: 1,
       name: "Coca-Cola Zero",
       buy: "Everywhere",
       cost: "ca 23-26:-",
@@ -18,7 +17,6 @@ const bigZeroCola = () => {
     },
 
     {
-      id: 2,
       name: "Freeway Cola Zero",
       buy: "Lidl",
       cost: "ca 12:-",
@@ -30,7 +28,6 @@ const bigZeroCola = () => {
     },
 
     {
-      id: 3,
       name: "ICA Cola Zero",
       buy: "ICA",
       cost: "ca 14:-",
@@ -42,7 +39,6 @@ const bigZeroCola = () => {
     },
 
     {
-      id: 4,
       name: "Premier Cola Zero",
       buy: "Willy:s, Hemköp, City Gross, ",
       cost: "ca 9-14:-",
@@ -54,7 +50,6 @@ const bigZeroCola = () => {
     },
 
     {
-      id: 5,
       name: "Pepsi Max",
       buy: "Everywhere",
       cost: "ca 14:-",

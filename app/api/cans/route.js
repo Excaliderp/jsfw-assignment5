@@ -6,7 +6,6 @@ import Image from "next/image"
 const canZeroCola = () => {
   const sodaBrands = [
     {
-      id: 1,
       name: "Coca-Cola Zero",
       buy: "Everywhere",
       cost: "ca 12:-",
@@ -18,7 +17,6 @@ const canZeroCola = () => {
     },
 
     {
-      id: 2,
       name: "Freeway Cola Zero",
       buy: "Lidl",
       cost: "ca 5:-",
@@ -30,7 +28,6 @@ const canZeroCola = () => {
     },
 
     {
-      id: 3,
       name: "Premier Cola Zero",
       buy: "Willy:s, Hemköp, City Gross",
       cost: "ca 5:-",
@@ -42,7 +39,6 @@ const canZeroCola = () => {
     },
 
     {
-      id: 4,
       name: "Pepsi Max",
       buy: "Everywhere",
       cost: "ca 12:-",

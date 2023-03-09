@@ -42,3 +42,8 @@ footer {
 h1 {
   text-align: center;
 }
+
+h3 {
+  font-size: 20px;
+  text-decoration: underline;
+}

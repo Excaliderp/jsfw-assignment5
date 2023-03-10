@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image"
 import can from "/public/can.jpg"
 import drink from "/public/drink.jpg"

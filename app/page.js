@@ -3,7 +3,6 @@ import Image from "next/image"
 import can from "/public/can.jpg"
 import drink from "/public/drink.jpg"
 import Styles from "./index.module.css"
-import Link from "next/link"
 
 export default function Home() {
   return (
@@ -26,8 +25,6 @@ export default function Home() {
         />
         <p>I have taken it upon myself to debunk the myth of off-brand sodas being worse that the OG, or go down trying.</p>
       </div>
-
-      <Link href="./addsoda">Secret Link</Link>
     </>
   )
 }

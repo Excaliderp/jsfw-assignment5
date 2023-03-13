@@ -3,7 +3,6 @@ import Image from "next/image"
 import can from "/public/can.jpg"
 import drink from "/public/drink.jpg"
 import Styles from "./index.module.css"
-import Link from "next/link"
 
 export default function Home() {
   return (

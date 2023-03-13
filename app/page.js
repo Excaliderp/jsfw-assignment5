@@ -26,8 +26,6 @@ export default function Home() {
         />
         <p>I have taken it upon myself to debunk the myth of off-brand sodas being worse that the OG, or go down trying.</p>
       </div>
-
-      <Link href="./addsoda">Secret Link</Link>
     </>
   )
 }
